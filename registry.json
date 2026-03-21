@@ -1,0 +1,36 @@
+{
+  "version": 3,
+  "lastUpdated": "2026-03-29",
+  "apps": [
+    {
+      "id": "zkmint",
+      "name": "ZKMint",
+      "description": "Night-ID name service and ZK-powered launchpad on Midnight Network",
+      "icon": "https://raw.githubusercontent.com/webisoftSoftware/1AM-app-registery/main/icons/zkmint.svg",
+      "url": "https://zkmint.1am.xyz",
+      "category": "identity",
+      "networks": ["preview", "preprod"],
+      "featured": true,
+      "new": true
+    },
+    {
+      "id": "dominion",
+      "name": "Dominion",
+      "description": "On-chain poker with mental poker cryptography and ZK proofs",
+      "icon": "https://raw.githubusercontent.com/webisoftSoftware/1AM-app-registery/main/icons/dominion.svg",
+      "url": "https://dominion.fun",
+      "category": "gaming",
+      "networks": ["preview", "preprod", "mainnet"],
+      "featured": true
+    },
+    {
+      "id": "1am-explorer",
+      "name": "1AM Explorer",
+      "description": "Block explorer for Midnight Network",
+      "icon": "https://raw.githubusercontent.com/webisoftSoftware/1AM-app-registery/main/icons/1am-explorer.svg",
+      "url": "https://explorer.1am.xyz",
+      "category": "tools",
+      "networks": ["preview", "preprod", "mainnet"]
+    }
+  ]
+}
