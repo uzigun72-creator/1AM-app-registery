@@ -1,6 +1,6 @@
 {
-  "version": 3,
-  "lastUpdated": "2026-03-29",
+  "version": 4,
+  "lastUpdated": "2026-03-30",
   "apps": [
     {
       "id": "zkmint",
@@ -9,7 +9,18 @@
       "icon": "https://raw.githubusercontent.com/webisoftSoftware/1AM-app-registery/main/icons/zkmint.svg",
       "url": "https://zkmint.1am.xyz",
       "category": "identity",
-      "networks": ["preview", "preprod"],
+      "networks": ["preview", "preprod", "mainnet"],
+      "featured": true,
+      "new": true
+    },
+    {
+      "id": "midnight-faucet",
+      "name": "Midnight Dust Faucet",
+      "description": "Get free dust tokens on Midnight mainnet",
+      "icon": "https://raw.githubusercontent.com/webisoftSoftware/1AM-app-registery/main/icons/midnight-faucet.svg",
+      "url": "https://midnight-dust-mainnet.nethermind.dev",
+      "category": "tools",
+      "networks": ["mainnet"],
       "featured": true,
       "new": true
     },
